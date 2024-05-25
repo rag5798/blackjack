@@ -27,3 +27,4 @@ I used typescript which is a superset of javascript. Used to make error spotting
 - Better Game Loop
 - Classes to save state better
 - Better use of async functions when calling api
+- When fully functioning, make github website to run javascript
