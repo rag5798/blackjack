@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- This was made by Chat GPT, Credit: chatgpt.com-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+        .table {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 5px solid black;
+            border-radius: 15px;
+            background-color: #004d00;
+        }
+        .dealer, .player {
+            margin: 20px 0;
+        }
+        .cards {
+            display: inline-block;
+        }
+        .card {
+            display: inline-block;
+            width: 80px;
+            height: 120px;
+        }
+        .player_card, .dealer_card{
+            width: 80px;
+            height: 120px;
+        }
+        .actions button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ffcc00;
+            cursor: pointer;
+        }
+        .actions button:hover {
+            background-color: #ffaa00;
+        }
+    </style>
+    <script src="type.js"></script>
+</head>
+<body>
+    <div class="table">
+        <h1>Blackjack Table</h1>
+        <div class="dealer">
+            <h2>Dealer</h2>
+            <div class="cards" id="dealer_cards">
+            </div>
+        </div>
+        <div class="player">
+            <h2>Player</h2>
+            <div class="cards" id="player_cards">
+            </div>
+        </div>
+        <div class="actions">
+            <button id="hit">Hit</button>
+            <button id="Stand">Stand</button>
+        </div>
+    </div>
+</body>
+</html>
