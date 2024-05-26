@@ -6,7 +6,7 @@ I used an API from deckofcardsapi.com to make a blackjack game. This currently o
 
 I wanted to work with an API in typescript to learn more about how to use the language and how typescript/javascript can interact with HTML
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=gW8M7ysJRZQ)
 
 # Development Environment
 I used visual studio code for my IDE. I was able to downlaod a few extentions to start writing in typescript
