@@ -311,7 +311,6 @@ document.addEventListener("DOMContentLoaded", () => {
         hit_button.addEventListener("click", function () {
             console.log("Hit Button was clicked!")
             hit_player(deck_id)
-                .then()
         })
     }else{
         console.log('Error with hit button')
